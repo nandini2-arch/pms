@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from flask import Flask, jsonify, render_template, request
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, template_folder=".")
 
 TOTAL_SLOTS = 12
 RATE_PER_HOUR = 20  # change this to set your price
